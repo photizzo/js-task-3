@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>JS Task 2</title>
+    <script>
+ function numberChecker(args) {
+   const data=[];
+   for (i=1; i<=args; i++) {
+     let value='';
+       value=value+"yu"
+     }
+     if (i%3===0) {
+       if (value.length!==0) {
+         value= value +'-'
+       }
+       value=value+"gi"
+     }
+     if (i%5===0) {
+       if (value.length!==0) {
+         value= value +'-'
+       }
+       value=value+"oh"
+     }
+     if (i%2 !==0 && i%3!==0 && i%5!==0) {
+        value=i;
+     }
+      data.push(value);
+   }
+   console.log(value);
+   return value;
+ }
+ numberChecker(100);
+    </script>
+  </head>
+  <body>
+    
+  </body>
+</html>
